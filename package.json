@@ -1,0 +1,30 @@
+{
+  "name": "react-native-movable-view",
+  "version": "1.0.2",
+  "description": "Performance friendly movable component for React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venits/react-native-movable-view.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "component",
+    "movable",
+    "draggable"
+  ],
+  "author": "Venits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/venits/react-native-movable-view/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "homepage": "https://github.com/venits/react-native-movable-view#readme"
+}
