@@ -20,10 +20,10 @@ import MovableView from 'react-native-movable-view'
 2.  Wrap your views:
 ```javascript
 <MovableView>
-	{views_you_want_to_be_movable}
+    {views_you_want_to_be_movable}
 </MovableView>
 ```
-3. That's all. Now you can restart your app and enjoy movable view ;) 
+3. **That's all**. Now you can restart your app and enjoy movable views ;) 
 
 *Example:*
 ```javascript
