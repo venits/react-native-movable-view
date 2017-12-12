@@ -4,13 +4,13 @@ Simple component that make your views movable.
 
 Component is using PanResponder, so it is **performance friendly :)**
 
+### Demo
+![Demo](https://raw.githubusercontent.com/venits/react-native-router-flux/master/demo.gif)
 
 ### Installation
 ```javascript
 npm install react-native-movable-view --save
 ```
-### Demo
-![Demo](https://raw.githubusercontent.com/venits/react-native-router-flux/master/demo.gif)
 
 ### Usage
 1. Import:
