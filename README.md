@@ -2,7 +2,7 @@
 
 Simple component that make your views movable.
 
-It is using PanResponder so it is **performance friendly :)**
+Component is using PanResponder, so it is **performance friendly :)**
 
 
 ### Installation
