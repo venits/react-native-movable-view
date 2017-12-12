@@ -56,6 +56,34 @@ import MovableView from 'react-native-movable-view'
 | onDragEnd | Executed when user stops dragging. | 
 | onMove | Executed when user is dragging view. **Returns current position of view.**  | 
 
+### Advanced Usage #1
+
+You can control if the view can be movable using **disabled** prop.
+
+*Example (this will make view **unmovable**):*
+```javascript
+ <MovableView disabled={true}>
+ ...
+ </MovableView>
+```
+*Default value is **false***.
+
+You can change disabled status any time using **changeDisableStatus()** method.
+
+*For this first of all you need to create reference to your MovableView*:
+
+*Example:*
+```javascript
+ <MovableView ref={ref => this.move = ref}>
+ ...
+ </MovableView>
+```
+
+Having this reference you can change disabled status like this:
+```javascript
+ this.move.changeDisableStatus();
+```
+
 ### Support
 In case of any problem or more custom solution you can email me at:
  

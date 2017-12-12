@@ -7,13 +7,14 @@ export default class MovableView extends Component {
     super(props);
     this.state = {
       pan: new Animated.ValueXY(),
+      disabled: props.disabled,
       xOffset: 0,
       yOffset: 0,
     };
 
     this.panResponder = PanResponder.create({
-      onMoveShouldSetPanResponder: () => true,
-      onMoveShouldSetPanResponderCapture: () => true,
+      onMoveShouldSetPanResponder: () => !this.state.disabled,
+      onMoveShouldSetPanResponderCapture: () => !this.state.disabled,
       onPanResponderGrant: () => {
         this.state.pan.setOffset({ x: this.state.xOffset, y: this.state.yOffset });
         this.props.onDragStart();
@@ -41,6 +42,10 @@ export default class MovableView extends Component {
     this.state.pan.removeAllListeners();
   }
 
+  changeDisableStatus = () => {
+    this.state.disabled = !this.state.disabled
+  };
+
   render() {
     return (
       <Animated.View
@@ -57,9 +62,11 @@ MovableView.propTypes = {
   onDragStart: PropTypes.func,
   onDragEnd: PropTypes.func,
   onMove: PropTypes.func,
+  disabled: PropTypes.bool,
 };
 
 MovableView.defaultProps = {
   onDragStart: () => {},
   onDragEnd: () => {},
+  disabled: false,
 };
