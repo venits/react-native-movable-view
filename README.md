@@ -28,11 +28,11 @@ import MovableView from 'react-native-movable-view'
 *Example:*
 ```javascript
 <MovableView>
-	<View style={{
-		width: 60, height: 60,
+     <View style={{
+	width: 60, height: 60,
         backgroundColor:'red',
         borderRadius: 30 }} 
-    />
+     />
 </MovableView>
 ```
 
