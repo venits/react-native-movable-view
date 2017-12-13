@@ -85,7 +85,7 @@ Having this reference you can change disabled status like this:
 ```
 
 ### Support
-In case of any problem or more custom solution you can email me at:
+In case of any problem or more custom solution, you can email me at:
  
 tomasz.przybyl.it@gmail.com
 
