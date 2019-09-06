@@ -4,6 +4,17 @@ Simple component that make your views movable.
 
 Component is using PanResponder, so it is **performance friendly :)**
 
+---
+
+**react-native-movable-view** is proudly sponsored by
+
+<a href="https://nativeforms.com/?utm_source=GitHub&utm_campaign=react-native-movable-view" rel="nofollow" target="_blank">
+  <img src="https://raw.githubusercontent.com/venits/native-forms/master/assets/sponsor.png" width="350"><br />
+  NativeForms - Build forms, surveys and polls for React Native apps.
+</a>
+
+---
+
 ### Demo
 ![Demo](https://raw.githubusercontent.com/venits/react-native-router-flux/master/demo.gif)
 
